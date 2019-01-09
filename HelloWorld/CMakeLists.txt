@@ -11,3 +11,4 @@ message(STATUS "this is BINARY dir" ${PROJECT_BINARY_DIR})
 message(STATUS "this is SOURCE dir" ${PROJECT_SOURCE_DIR})
 
 add_executable(hello-world ${SOURCE_FILES})
+add_executable(chdir_test chdirtest.c)

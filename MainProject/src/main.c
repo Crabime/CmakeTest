@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <store.h>
-#include <main.h>
+#include <curlmain.h>
 
 int main() {
     char *str = GenerateRandomString(10);
